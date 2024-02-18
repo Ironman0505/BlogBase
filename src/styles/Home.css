@@ -1,0 +1,79 @@
+/* Home.css */
+
+.text-danger {
+    color: #FF0000; /* Change the text color to red */
+  }
+  
+  .display-5 {
+    font-size: 24px;
+  }
+
+.home-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .home-card {
+    background-color: #ffffff; /* Set your card background color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .home-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Apply shadow on hover */
+  }
+  
+  .home-card h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #007bff; /* Title color */
+    margin-bottom: 10px;
+  }
+  
+  .home-card h5 {
+    font-size: 16px;
+    font-weight: bold; /* Make the author's name bold */
+    margin-bottom: 10px;
+  }
+  
+  .home-card p {
+    font-size: 16px;
+
+    line-height: 1.5; /* Adjust line height for better readability */
+  }
+  
+.card-header{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-content{
+    display: flex;
+    margin: auto;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.DltBtn:hover{
+    cursor: pointer;
+}
+
+
+.body-header{
+    font-size: larger;
+    color: #e27e7e;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.headings{
+    font-weight: bold;
+    font-size: larger;
+    color: #7ed3e2;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

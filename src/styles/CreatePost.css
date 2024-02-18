@@ -1,0 +1,45 @@
+/* styles.css */
+
+.createPost {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .createPost p {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .createPost label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+  }
+  
+  .createPost input[type="text"],
+  .createPost textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .createPost button {
+    background-color: #6cbd90;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .createPost button:hover {
+    background-color: #0056b3;
+  }
+  
